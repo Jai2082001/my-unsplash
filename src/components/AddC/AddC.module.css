@@ -1,0 +1,32 @@
+.parentAddC {
+    color: #4f4f4f;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 3;
+    background-color: white;
+    padding: 20px 30px;
+    width: 500px
+}
+
+.inputContainer>* {
+    width: 100%;
+}
+
+.inputContainer input {
+    border-radius: 10px;
+    padding: 8px 5px;
+    border: 1px solid #4f4f4f
+}
+.buttonContainer{
+    margin-top: 20px;
+    justify-content: flex-end;
+    display: flex
+}
+.buttonContainer button{
+    margin-left: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer
+}

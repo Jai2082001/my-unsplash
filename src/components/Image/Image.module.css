@@ -1,0 +1,35 @@
+.imgContainer {
+    position: relative;
+}
+
+.imgContainer button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: 1px solid #EB5757;
+    color: #EB5757;
+    padding: 5px 15px;
+    border-radius: 35%;
+    z-index: 4000;
+}
+
+.imgContainer button:hover {
+    color: white;
+    background-color: #EB5757;
+    cursor: pointer;
+}
+
+.imgContainer label {
+    position: absolute;
+    z-index: 2000;
+    color: white;
+    bottom: 40px;
+    left: 10px;
+}
+
+.imgContainer img {
+    width: 100%;
+    border-radius: 7px;
+    margin-bottom: 16px;
+}

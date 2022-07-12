@@ -1,0 +1,11 @@
+.grid {
+    margin-top: 50px;
+    display: column;
+    columns: 3;
+    max-width: 100%;
+    padding: 15px 50px
+}
+
+.grid>* {
+    break-inside: avoid;
+}

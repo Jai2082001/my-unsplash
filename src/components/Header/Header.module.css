@@ -1,0 +1,57 @@
+.headerDiv {
+    padding: 15px 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.firstDiv {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.titleIcon {
+    display: flex;
+}
+
+.titleIcon i {
+    margin-right: 20px;
+    font-size: 50px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputDiv {
+    position: relative;
+    margin-left: 20px;
+}
+
+.inputDiv input {
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+.inputDiv i {
+    margin-top: 8px;
+    padding-left: 5px;
+    position: absolute;
+    color: #bdbdbd;
+}
+
+.inputDiv i span {
+    margin-left: 5px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.secondDiv button {
+    padding: 15px 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #3DB46D;
+    color: white;
+}
